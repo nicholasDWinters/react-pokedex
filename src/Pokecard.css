@@ -1,0 +1,29 @@
+.Pokecard {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    display: inline-block;
+    margin: 20px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 10%;
+}
+
+.Pokecard:hover {
+    background-color: lightcoral;
+    
+}
+
+.Pokecard-name {
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+.Pokecard-img {
+   width: 150px;
+}
+
+.Pokecard-description {
+    display: block;
+    font-weight: bold;
+}
